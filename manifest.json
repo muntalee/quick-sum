@@ -1,0 +1,14 @@
+{
+  "name": "Quick Sum",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Summarize webpages using AI into clean and minimal article-style webpages.",
+  "browser_action": {
+  //   "default_icon": {
+  //     "16": "assets/icon16.png",
+  //     "48": "assets/icon48.png",
+  //     "128": "asssets/icon128.png"
+  //   }
+    "default_popup": "index.html"
+  }
+}
