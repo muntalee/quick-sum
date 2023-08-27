@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #dad7d7;
+}
+
+body {
+    font-family: "Montserrat";
+    width: 267px;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popup-container {
+    border-radius: 6px;
+    padding: 20px;
+    padding-top: 25px;
+    border-radius: 25px;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    resize: both;
+    min-height: 40px;
+    line-height: 20px;
+    bottom: 100;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    transition: background-color 0.20s, color 0.15s;
+    margin: 20px;
+    width: 80%;
+}
+
+.popup-content input:hover {
+    background-color: rgba(115, 113, 113, 0.2);
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    /* Center the buttons horizontally */
+    align-items: center;
+    /* Center the buttons vertically */
+    margin-top: 20px;
+}
+
+.sum-btn,
+.key-btn {
+    padding: 10px 25px;
+    /* Increase padding for better button size */
+    margin: 5px;
+    background-color: gray;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: opacity 0.15s, background-color 0.15s, color 0.15s;
+}
+
+.sum-btn:hover,
+.key-btn:hover {
+    opacity: 0.8;
+}
+
+.sum-btn:active,
+.key-btn:active {
+    background-color: black;
+    color: white;
+}
+
+.sentences {
+    position: absolute;
+    font-family: "Montserrat";
+    padding: 10px;
+    font-weight: bold;
+    font-size: 12px;
+    color: #333;
+}
+
+.input {
+    width: 30px;
+    padding: 2px;
+    border: none;
+    transition: opacity 0.5s;
+}
+
+.input:hover {
+    cursor: pointer;
+    opacity: 0.4;
+}
