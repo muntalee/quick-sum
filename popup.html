@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <div class="popup-container">
+    <div class="popup-content">
+      <span> </span>
+      <textarea id="input" oninput="this.parentNode.dataset.value = this.value" rows="17" placeholder="Insert text here"
+        cols="18"></textarea>
+    </div>
+  </div>
+  <div class="buttons">
+    <button class="sum-btn" id="sum">Summarize</button>
+    <button class="key-btn"> Options</button>
+  </div>
+  <p class="sentences"><strong>Number of sentences: <input class="input" value="3" type="number"> .</p></strong>
+
+</body>
+<script src="script.js"></script>
+
+</html>
