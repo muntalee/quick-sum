@@ -25,3 +25,6 @@ Our journey enriched our tech understanding and coding skills. Collaboration tau
 ## 🔮 What's next for Quick Sum
 
 Driven by user feedback, we plan to enhance with features like keyword searches and summary length options for a more personalized experience.
+
+## 👥 Contributors
+Jeel Vekaria, Munta Islam, Arjun Sharma, Manav Parmar
